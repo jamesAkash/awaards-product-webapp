@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- locomotive css -->
+    <link rel="stylesheet" href="loco.css" />
     <!-- remix icon  -->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
@@ -12,22 +14,33 @@
     <title>Product Web Design</title>
   </head>
   <body>
+    <div id="minicircle"></div>
     <div id="main">
-      <!-- <div id="hero">
+      <div id="hero">
         <div id="nav">
           <a href="#">Akash James</a>
           <h4>MENU +</h4>
         </div>
         <div id="heading">
-          <h1>Product</h1>
+          <div class="bounding">
+            <h1 class="boundingelem">Product</h1>
+          </div>
           <div class="blocktext">
-            <h1 id="secondh1">Designer</h1>
-            <h5>Based in toronto</h5>
+            <div class="bounding">
+              <h1 class="boundingelem" id="secondh1">Designer</h1>
+            </div>
+            <div class="bounding">
+              <h5 class="boundingelem">Based in BLR</h5>
+            </div>
           </div>
         </div>
         <div id="smallHeading">
-          <h5>available for freelance</h5>
-          <h5>work from may 23</h5>
+          <div class="bounding">
+            <h5 class="boundingelem">available for freelance</h5>
+          </div>
+          <div class="bounding">
+            <h5 class="boundingelem">work from august 23</h5>
+          </div>
         </div>
         <div id="herofooter">
           <a href="#"
@@ -42,8 +55,8 @@
             </div>
           </div>
         </div>
-      </div> -->
-      <!-- <div id="second">
+      </div>
+      <div id="second">
         <div class="elem">
           <img src="./images/tech1.jpg" alt="technology one" />
           <h1>The Plug</h1>
@@ -61,8 +74,8 @@
           <h1>octavia</h1>
           <p>2023</p>
         </div>
-      </div> -->
-      <!-- <div id="about">
+      </div>
+      <div id="about">
         <img id="aboutImg" src="./images/about.png" alt="avatar" />
         <div id="textAbout">
           <h5>About me</h5>
@@ -73,15 +86,15 @@
           </p>
           <a href="#">Let's Talk</a>
         </div>
-      </div> -->
-      <!-- <div id="subscribe">
+      </div>
+      <div id="subscribe">
         <h5>forgot to mention</h5>
         <h3>
           Subscribe to my Youtube Channel
 
           <i class="ri-arrow-right-up-line"></i>
         </h3>
-      </div> -->
+      </div>
       <div id="footer">
         <div class="left">
           <h5>2023+</h5>
@@ -95,5 +108,15 @@
         </div>
       </div>
     </div>
+    <!-- gsap script -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- loco script  -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
