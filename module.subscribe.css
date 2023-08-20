@@ -1,0 +1,17 @@
+#subscribe {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 20px 30px;
+  padding-bottom: 7vw;
+}
+
+#subscribe h5 {
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+
+#subscribe h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+}

@@ -3,6 +3,9 @@
 /* Internal css modules */
 @import "module.hero.css";
 @import "module.second.css";
+@import "module.about.css";
+@import "module.subscribe.css";
+@import "module.footer.css";
 
 :root {
   --white: #fff;
